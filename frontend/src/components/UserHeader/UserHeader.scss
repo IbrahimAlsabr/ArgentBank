@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 2rem;
+
+    h1 {
+        text-align: center;
+    }
+
+    .edit-button,
+    .save-button,
+    .cancel-button {
+        margin-top: 10px;
+        padding: 10px 20px;
+        cursor: pointer;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        border-color: #00bc77;
+        background-color: #00bc77;
+        font-weight: bold;
+    }
+
+    .save-button,
+    .cancel-button {
+        background-color: #00bc77;
+        width: 45%;
+    }
+
+    .cancel-button {
+        background-color: #fff;
+        margin-left: 10px;
+        color: #00bc77;
+        border: 2px solid #038d5a;
+    }
+
+    input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    input:first-child {
+        margin-right: 10px;
+    }
+}
